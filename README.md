@@ -12,7 +12,6 @@ Mosaic-seq is the technique developed in Gary Hon Lab which allows acquisition o
 2. We incorporated the CROP-seq design for sgRNA expression, which enables direct detection of sgRNAs without the need to barcode [1]. This design dramatically simplifies the construction of sgRNA plasmid libraries, and also eliminates the shuffling of sgRNAs and barcodes due to retroviral recombination [2, 3]. 
 3. As in Perturb-Seq, we implement an enrichment PCR step to increase the detection efficiency of the sgRNAs in each single cell [4]. These improvements significantly increase the throughput of Mosaic-seq, which now allows simultaneous perturbation of hundreds to thousands of enhancers.
 
-## Overview of the pipeline
 ## Description
 ### Overview of the pipeline 
 ![alt text](https://github.com/russellxie/Mosaic-seq2/blob/master/MISC/Flowchart-01.png "Logo Title Text 1")

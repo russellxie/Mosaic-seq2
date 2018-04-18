@@ -13,8 +13,10 @@ Mosaic-seq is the technique developed in Gary Hon Lab which allows acquisition o
 3. As in Perturb-Seq, we implement an enrichment PCR step to increase the detection efficiency of the sgRNAs in each single cell [4]. These improvements significantly increase the throughput of Mosaic-seq, which now allows simultaneous perturbation of hundreds to thousands of enhancers.
 
 ## Description
-### Overview of the pipeline 
-![alt text](https://github.com/russellxie/Mosaic-seq2/blob/master/MISC/Flowchart-01.png "Logo Title Text 1")
+### Overview of the pipeline
+<dl>
+<img src="https://github.com/russellxie/Mosaic-seq2/blob/master/MISC/Flowchart-01.png" width = 400 />	
+</dl>
 
 1. Use 'extract_sgRNA_from_reads.py' to extract possible sgRNA and cell barcode from fastq files. For example:
 ```bash

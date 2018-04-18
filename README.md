@@ -6,6 +6,13 @@ Shiqi 'Russell' Xie
 The author thanks Dr. Jialei Duan for his helpful discussion and input.
 ## Requirements
 Code tested in Python 3.6
+- matplotlib
+- pandas
+- numpy
+- scipy
+- regex
+- Biopython
+
 ## Introduction
 Mosaic-seq is the technique developed in Gary Hon Lab which allows acquisition of sgRNA information and transcriptome simultaneously from the same cell during single-cell RNA-seq [1]. We've recently developed Mosaic-seq2, an improved version with several key changes to increase sensitivity and throughput.
 1. We adopt the 10X Genomics single-cell RNA-seq platform and analysis pipeline.

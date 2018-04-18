@@ -14,7 +14,7 @@ Mosaic-seq is the technique developed in Gary Hon Lab which allows acquisition o
 ## Description
 
 ## Acknoledgement
-The author thanks Dr. Jialei Duan for the help of writing part of the code.
+The author thanks Dr. Jialei Duan for his helpful discussion and input.
 
 ## Requirements
 Code tested in Python 3.6

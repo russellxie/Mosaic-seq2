@@ -16,8 +16,7 @@ Mosaic-seq is the technique developed in Gary Hon Lab which allows acquisition o
 ### Overview of the pipeline 
 ![alt text](https://github.com/russellxie/Mosaic-seq2/blob/master/MISC/Flowchart-01.png "Logo Title Text 1")
 
-1. Use 'extract_sgRNA_from_reads.py' to extract possible sgRNA and cell barcode from fastq files
-Example:
+1. Use 'extract_sgRNA_from_reads.py' to extract possible sgRNA and cell barcode from fastq files. For example:
 ```bash
 ./extract_sgRNA_from_reads.py\
 	-i FASTQ1.gz FASTQ2.gz\

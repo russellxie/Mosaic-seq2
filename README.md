@@ -18,6 +18,7 @@ Mosaic-seq is the technique developed in Gary Hon Lab which allows acquisition o
 1. We adopt the 10X Genomics single-cell RNA-seq platform and analysis pipeline.
 2. We incorporated the CROP-seq design for sgRNA expression, which enables direct detection of sgRNAs without the need to barcode [1]. This design dramatically simplifies the construction of sgRNA plasmid libraries, and also eliminates the shuffling of sgRNAs and barcodes due to retroviral recombination [2, 3]. 
 3. As in Perturb-Seq, we implement an enrichment PCR step to increase the detection efficiency of the sgRNAs in each single cell [4]. These improvements significantly increase the throughput of Mosaic-seq, which now allows simultaneous perturbation of hundreds to thousands of enhancers.
+This pipline is used to 1) summarize the sgRNA information from the enrichment libraries and 2) perform the Virtual FACS analysis by integrating both the 10X expression matrix and sgRNA matrix.
 
 ## Description
 ### Overview of the pipeline
